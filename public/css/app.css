@@ -12,3 +12,40 @@ body{
         width: 100%!important;
     }
 }
+.corazon__:hover{
+    color:red;!important;
+}
+[id="heart"] {
+    position: absolute;
+    left: -100vw;
+}
+
+[for="heart"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 1em;
+    align-self: center;
+    transition: color 0.2s ease-in-out;
+}
+
+[for="heart"]:hover {
+    color: grey;
+}
+
+[for="heart"]::selection {
+    color: none;
+    background: transparent;
+}
+
+[for="heart"]::moz-selection {
+    color: none;
+    background: transparent;
+}
+
+[id="heart"]:checked + label {
+    color: #e2264d;!important;
+    will-change: font-size;
+
+}
+@keyframes heart {0%, 17.5% {font-size: 0;}}
+

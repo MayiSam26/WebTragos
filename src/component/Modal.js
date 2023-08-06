@@ -93,7 +93,6 @@ function Modal(props){
 
                         <div className="modal-footer d-flex justify-content-center">
                             <button type="button" className="btn btn-secondary " data-bs-dismiss="modal">Close c:</button>
-                            <button type="button" className="btn btn-danger ">Like 🥰 </button>
                         </div>
                     </div>
                 </div>
